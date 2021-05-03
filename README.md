@@ -11,4 +11,4 @@ Day 61 has been created in two versions:
 
 v1 fetches JSON data and saves this to separate Core Data entities
 
-v2 fetches JSON data directly into Core Data entities by conforming Code Data classes to Decodable
+v2 fetches JSON data directly into Core Data entities by conforming Core Data classes to Decodable
