@@ -22,7 +22,6 @@ struct User: Codable {
     
     var registrationDate: String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "YY-MM-DD"
         formatter.dateStyle = .long
         return formatter.string(from: registered)
     }
